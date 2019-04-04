@@ -2640,7 +2640,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;box-shadow: -5.142px 7.142px 20px 0px rgba(157, 157, 157, 0.3);
 }
 
-.single-feature:hover h4, .single-feature:hover h3{
+.single-feature:hover h4, .single-feature:hover h3, .single-feature:hover .lnr{
   color: #da072d;
 }
 
@@ -2657,8 +2657,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-right: 15px;
 }
 
-.single-feature h3{font-size: 19px;margin-bottom: 12px;}
-
+.single-feature h3{font-size: 22px;margin-bottom: 18px;}
+.single-feature .lnr {font-size: 22px;}
 .review-area {
   background-color: #f9f9ff;
 }
