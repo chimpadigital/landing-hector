@@ -2015,7 +2015,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width:1910px){
+@media (min-width:1910px){
   .atf {
     margin-top: -183px!important;
 }
@@ -3516,7 +3516,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 466px) {
   .atf {
-    margin-top: -32px!important;
+    margin-top: -44px!important;
 }
   .nav-area .nav-right {
     margin-top: 50px;
