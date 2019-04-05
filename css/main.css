@@ -2023,6 +2023,17 @@ h1, h2, h3, h4, h5, h6 {
   .atf {
     margin-top: -183px!important;
 }
+.callto-area {
+  text-align: center;
+  background: url(/img/equipo.jpg) 0% 17%!important;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  padding: 158px;
+}
+.header-img {
+  right: 20vh!important;
+  height: 80vh!important;
+}
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -2446,7 +2457,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .header-img {
-  right: 0;
+  right: 15vh;
   position: absolute;
 }
 
