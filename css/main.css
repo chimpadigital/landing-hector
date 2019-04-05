@@ -1978,6 +1978,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: right;
     margin-top: -26px;
   }
+  .header-img {
+    width: 68%!important;
+    right: 30px!important;
+}
 }
 
 @media (max-width: 673px) {
@@ -2356,7 +2360,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background-image: url(../img/hero.jpg);background-position: center;background-repeat: no-repeat;
+  background-image: url(../img/hero-bg.jpg);background-position: center;background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -2751,8 +2755,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .callto-area {
   text-align: center;
-  background: url(../img/calltoaction-bg.jpg) center;
+  background: url(../img/equipo.jpg) top center;
   background-size: cover;
+  padding: 150px;
 }
 
 .callto-area .overlay-bg {
@@ -2760,7 +2765,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .callto-area h1, .callto-area p {
-  z-index: 2;
+  z-index: 2;font-weight: bold;
 }
 
 .callto-area .primary-btn {
@@ -2858,6 +2863,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .footer-area .footer-bottom .footer-social {
     margin-top: 20px;
   }
+  .callto-area{padding:68px 20px;}
 }
 
 @media (max-width: 768px) {
